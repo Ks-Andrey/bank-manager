@@ -1,0 +1,85 @@
+.tabs__btns button{
+    background: #350258;
+    color: #fff;
+}
+
+.tabs__btns button:hover{
+    background: #2d0149;
+    color: #fff;
+}
+
+.tabs__container{
+    width: 48%;
+    max-width: 100%;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.tabs__container .tabs__btns button{
+    width: 48%;
+    max-width: 100%;
+}
+
+.tabs__container .tabs__btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tabs-data__container ul{
+    list-style: none;
+    padding: 0;
+}
+
+.tabs-data__container ul li{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    padding-bottom: 5px;
+    border-bottom: 2px dotted #2d0149;
+}
+
+.chart__container{
+    width: 100%;
+    max-width: 100%;
+    height: 40vh;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.bottom__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.score h2{
+    font-size: 32px;
+    line-height: 1.2;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 32px;
+}
+
+.tabs-data__container .loading{
+    margin: 15px auto;
+}
+
+.score h2 .loading{
+    height: 100%;
+    width: unset;
+    margin-right: 40px;
+}
+
+.table__container{
+    width: 48%;
+    max-width: 100%;
+    margin-top: -4px;
+}
+
+.table__container .loading{
+    margin: 15px auto;
+}
